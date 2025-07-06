@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Peter Sawm | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Urbanist & Sora Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@700;900&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Three.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Peter Sawm <span>Frontend Dev</span></div>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="hero" class="hero">
+    <div class="hero-left">
+      <h1>
+        Hey, I'm <span class="gradient-text">Peter</span> 🚀
+      </h1>
+      <h2>Creative Frontend & 3D Explorer</h2>
+      <p>
+        Building bold, playful, interactive web experiences.<br>
+        <span class="muted">Design. Code. 3D. Fun.</span>
+      </p>
+      <a href="#projects" class="cta-btn">View My Work</a>
+    </div>
+  </section>
+  <main>
+    <section id="projects">
+      <h2>🔥 Featured Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <img src="assets/Projects-1.jpg" alt="Project 1">
+          <h3>Vibe Cube</h3>
+          <p>3D music visualizer with real-time neon effects & beat sync.</p>
+          <a href="#" target="_blank">Live Demo</a>
+        </div>
+        <div class="project-card">
+          <img src="assets/Projects-2.jpg" alt="Project 2">
+          <h3>Snapfolio</h3>
+          <p>Animated portfolio with glassmorphism and smooth scroll reveals.</p>
+          <a href="#" target="_blank">Live Demo</a>
+        </div>
+        <div class="project-card">
+          <img src="assets/Projects-3.jpg" alt="Project 3">
+          <h3>Blob Generator</h3>
+          <p>Fun tool to make custom SVG blobs & gradients, export for free.</p>
+          <a href="#" target="_blank">Live Demo</a>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h2>👾 About Me</h2>
+      <div class="about-content">
+        <img src="assets/aboutpic_1.png" alt="Profile" class="profile-img">
+        <div>
+          <p>
+            I'm a <span class="gradient-text">Frontend Developer</span>
+            22 y/o frontend dev from Yangon. I love <span class="gradient-text">modern web tech</span>, design, and playful 3D effects.
+            <br><br>
+            Always exploring new tools—React, Svelte, Three.js, Framer Motion, Figma!
+          </p>
+          <ul>
+            <li>💡 React, Svelte, Next.js</li>
+            <li>🎨 CSS, Tailwind, Styled Components</li>
+            <li>🕹️ Three.js, GSAP, Framer Motion</li>
+            <li>🔥 UI/UX, Microinteractions</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>📬 Contact</h2>
+      <div class="contact-wrapper">
+        <form class="contact-form" autocomplete="off">
+          <label for="name">Name</label>
+          <input type="text" id="name" required placeholder="Your Name">
+          <label for="email">Email</label>
+          <input type="email" id="email" required placeholder="you@email.com">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" required placeholder="Let's collab!"></textarea>
+          <button type="submit">Send Message</button>
+          <div class="form-result" id="form-result"></div>
+        </form>
+        <div class="contact-shortcuts">
+          <h3>Connect</h3>
+          <a href="mailto:petersawm34@gmail.com" class="shortcut-btn" aria-label="Email">
+            <img src="https://img.icons8.com/color/48/000000/new-post.png" alt="Email"> Email
+          </a>
+          <a href="https://github.com/petersawmtech" class="shortcut-btn" aria-label="GitHub" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"> GitHub
+          </a>
+          <a href="https://www.instagram.com/petersawmtalks/" class="shortcut-btn" aria-label="Instagram" target="_blank">
+            <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram"> Instagram
+          </a>
+            <a href="https://www.linkedin.com/in/peter-sawm-06932b254/" class="shortcut-btn" aria-label="LinkedIn" target="_blank">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn"> LinkedIn
+            </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <span>© 2025 Designed & Built by  <span class="gradient-text">Peter Sawm</span>
+
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
